@@ -45,3 +45,24 @@ Ps :All of the others game’s classes will follow the concept of encapsulation 
 except for the HexGame class since so many other classes need to access its attributes so we may as
 well just make them public.
 
+```javascript
+
+#ifndef HEXGAME_H
+#define HEXGAME_H
+#include <QGraphicsView>
+#include <QGraphicsScene>
+// #include "hexagoneboard.h"
+class hexgame: public QGraphicsView{
+public:
+ // constructors
+hexgame (QWidget* parent=NULL);
+ // public methods
+ void start();
+ // public attributes
+ QGraphicsScene* scene;
+ // hexagoneboard* hexBoard; TODO
+ QString whosTurn;
+};
+#endif // HEXGAME_H
+
+```
