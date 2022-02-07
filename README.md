@@ -16,9 +16,12 @@ independently by John Nash in 1948.
 - When the hex board is full announce the winner (the player with more hexes on the board)
 
  First things first ,we are going to start by implementing the HexGame class which :
+ 
    - Inherits from QGraphicsview
    - Is Responsible for managing the global aspects of the game 
+   
  And has the Attributes :
+ 
    - Scene 
    - HexBoard
    - Whosturn
