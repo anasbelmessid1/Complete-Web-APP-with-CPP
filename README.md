@@ -27,3 +27,21 @@ independently by John Nash in 1948.
    - Whosturn
  And methods :
    - Start () 
+
+We will create a header file HexGame.h where we will initialize any variables and declare any
+methods , that will be then used and implemented in the source file of the class HexGame.cpp.
+To create the first attribute “scene” we will use a QGrapgicsscene pointer which means that we will
+have to include the QGraphicsscene class in the include section , the attribute scene is basically the
+layout where our game will be played.
+
+The second attribute “hexboard” will be commented for now , because we haven’t yet created the
+hexagoneboard class yet , which we will explain later on .
+
+The third attribute “whosturn” will be used to determine which player’s turn it is to play the game ,
+we can represent this attribute in a lot of ways such as 0 and 1 , but we chose to represent it as a
+string , so for example string player1 means its player1’s turn .
+
+Ps :All of the others game’s classes will follow the concept of encapsulation and information hiding
+except for the HexGame class since so many other classes need to access its attributes so we may as
+well just make them public.
+
