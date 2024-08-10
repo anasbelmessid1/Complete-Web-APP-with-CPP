@@ -1,4 +1,4 @@
-# FinalProject-HexGame                                          
+# Complete Web App/Game with C++                                        
 
 *<h2>Introduction</h2>*
 
